@@ -4,7 +4,7 @@ class FindMinMax
     {
         int Min = numbers[0];
         int Max = numbers[0];
-        for(int i = 1; i < numbers.Length; i++)
+        for (int i = 1; i < numbers.Length; i++)
         {
             if (numbers[i] > Max)
             {
@@ -18,9 +18,9 @@ class FindMinMax
         Console.WriteLine(Min);
         Console.WriteLine(Max);
     }
-    public static void Main(string [] args)
+    public static void Main(string[] args)
     {
-        int [] numbers = {1,2,3,4,5};
+        int[] numbers = { 1, 2, 3, 4, 5 };
         Find(numbers);
     }
 }
