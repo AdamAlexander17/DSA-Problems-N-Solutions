@@ -18,5 +18,4 @@ class FindOccurences
         int k = 1;
         Find(numbers, k);
     }
-
 }
