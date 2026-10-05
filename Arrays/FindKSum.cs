@@ -17,8 +17,7 @@ class FindKSum
             }
             else{
                 right--;
-            }
-            
+            }   
         }
     }
     public static void Main(string[] args)
