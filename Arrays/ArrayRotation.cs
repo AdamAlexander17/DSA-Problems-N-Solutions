@@ -16,7 +16,6 @@ class Rotate
             start++;
             end--;
         }
-    
     }
     public static void Main(String[] args){
         int[] numbers = {1, 2, 3, 4, 5};
