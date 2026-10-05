@@ -3,12 +3,12 @@ class FindMinMax
     public static void Find(int[] numbers)
     {
         int Min = numbers[0];
-        int MAx = numbers[0];
+        int Max = numbers[0];
         for(int i = 1; i < numbers.Length; i++)
         {
-            if (numbers[i] > MAx)
+            if (numbers[i] > Max)
             {
-                MAx = numbers[i];
+                Max = numbers[i];
             }
             else if (numbers[i] < Min)
             {
@@ -16,7 +16,7 @@ class FindMinMax
             }
         }
         Console.WriteLine(Min);
-        Console.WriteLine(MAx);
+        Console.WriteLine(Max);
     }
     public static void Main(string [] args)
     {
