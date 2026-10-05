@@ -23,6 +23,5 @@ class SecondLargest
     {
         int[] numbers = {22,33,44,76, 89, 76, 54 , 90, 87 , 97};
         Find(numbers);
-
     }
 }
