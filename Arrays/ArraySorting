@@ -1,0 +1,35 @@
+public class ArraySorting {
+    
+    public static void ArraySort(int [] number){
+        int low = 0;
+        int medium = 0;
+        int high = number.Length - 1;
+        while(medium<=high){
+            if(number[medium] == 0){
+                int temp = number[low];
+                number[low]= number[medium];
+                number[medium] = temp;
+                low++;
+                medium++;
+            }
+            else if(number[medium] ==1){
+                    medium++;
+            }
+            else{
+                int temp = number[medium];
+                number[medium] = number[high];
+                number[high] = temp;
+                high --;
+           }
+        }
+   }
+    
+    public static void Main(string[] args)
+    {
+        int[] numbers = { 2, 0, 1, 2, 1, 0, 1, 2, 0 };
+
+        ArraySort(numbers);
+
+        Console.WriteLine(string.Join(" ", numbers));
+    }
+}
