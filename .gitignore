@@ -1,0 +1,9 @@
+
+# Ignore build folder
+obj/
+
+# Ignore C# source file
+Program.cs
+
+# Ignore project file
+DSA-Problem.csproj
