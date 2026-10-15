@@ -1,7 +1,6 @@
 using System;
 
 class ReverseArrays{
-    
 public static void Reverse(int [] numbers){
     for(int i = 0; i<numbers.Length; i++){
         for(int j = 0 ; j<numbers.Length-1-i; j++){
@@ -12,7 +11,7 @@ public static void Reverse(int [] numbers){
             }
         }
     }
-    }
+}
     
 public static void Main(){
     int [] numbers = {7,11,8,6,1,4,3,2};
@@ -20,5 +19,5 @@ public static void Main(){
     for(int a = 0 ; a<numbers.Length; a++){
         Console.WriteLine(numbers[a]);
     }
-   }
+    }
 }
